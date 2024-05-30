@@ -1,0 +1,31 @@
+body {
+    background-color: #212121;
+    color: white;
+}
+.section {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+    margin-top: 10px;
+}
+
+.image-container {
+    flex: 0 0 auto; /* No crece ni se reduce, tamaño automático */
+}
+
+.text-container {
+    margin-right: 500px; /* Espacio entre la imagen y el texto */
+    
+}
+img{
+    height: 400px;
+    width: 300px;
+    
+}
+.img{
+height: 150px;
+width: 200px;
+}
+.texto{
+    margin-left: 130px;
+    margin-top: 200px;
+}
